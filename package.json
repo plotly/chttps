@@ -1,0 +1,23 @@
+{
+  "name": "chttps",
+  "description": "Command line utility to replace http links in package-lock with https",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": "Plotly, Inc.",
+  "main": "chttps.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/plotly/chttps.git"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "bin": {},
+  "keywords": [
+    "quick",
+    "replace",
+    "http",
+    "https",
+    "package-lock"
+  ]
+}
