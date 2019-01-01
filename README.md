@@ -4,17 +4,22 @@ Chttps (Change http to https) was inspired by and initially based on https://www
 Caution: the input package-lock.json file must have line-breaks for each item and should be stored in utf-8 format.
 
 # Install
-  npm install chttps --global
+```
+npm install chttps --global
+```
 You can now use `chttps` from the command line.
 
 OR:
-
+```
   npm install chttps --save-dev
-Then add the following line to the script tag within the package.json file of the desired module.
+```
+Then add the following line to the scripts tag within the package.json file of the desired module.
+```
 "scripts": {
 	...
 	"postshrinkwrap": "chttps ."
 }
+```
 
 ## Examples
 
