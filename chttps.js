@@ -28,3 +28,4 @@ if (!isFile) {
         console.log('OK. No ' + 'resolved": "http://' + ' match.');
     }
 }
+console.log('\n');

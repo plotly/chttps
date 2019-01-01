@@ -5,19 +5,12 @@ Caution: the input package-lock.json file must have line-breaks for each item an
 
 # Install
 ```
-npm install chttps --global
-```
-You can now use `chttps` from the command line.
-
-OR:
-```
   npm install chttps --save-dev
 ```
 Then add the following line to the scripts tag within the package.json file of the desired module.
 ```
 "scripts": {
-	...
-	"postshrinkwrap": "chttps ."
+	"postshrinkwrap": "node run node_modules/chttps/chttps ."
 }
 ```
 
