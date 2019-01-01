@@ -10,7 +10,7 @@ Caution: the input package-lock.json file must have line-breaks for each item an
 Then add the following line to the scripts tag within the package.json file of the desired module.
 ```
 "scripts": {
-	"postshrinkwrap": "node run node_modules/chttps/chttps ."
+	"postshrinkwrap": "node node_modules/chttps/chttps ."
 }
 ```
 
