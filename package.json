@@ -12,7 +12,9 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {},
-  "bin": {},
+  "bin": {
+    "chttps": "./chttps.js"
+  },
   "keywords": [
     "quick",
     "replace",

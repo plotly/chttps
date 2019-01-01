@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fs = require('fs');
 
 var packageFolder = process.argv[process.argv.length - 1]; // picking the last argument as the directory
