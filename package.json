@@ -2,7 +2,7 @@
   "name": "chttps",
   "description": "Command line utility to replace http links in package-lock with https",
   "license": "MIT",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Plotly, Inc.",
   "main": "chttps.js",
   "repository": {
